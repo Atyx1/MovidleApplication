@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movidleapplication.MovidleController">
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txtFieldMovie" layoutX="154.0" layoutY="56.0" prefHeight="25.0" prefWidth="248.0" promptText="Guess a movie!" />
+            <Button fx:id="btnGuess" layoutX="454.0" layoutY="56.0" mnemonicParsing="false" onAction="#btnGuessOnAction" text="Let's Try">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Label fx:id="lblMovie1Title" layoutX="20.0" layoutY="100.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie1Title" visible="false">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie1Year" layoutX="118.0" layoutY="100.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie1Year" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie1Genre" layoutX="216.0" layoutY="100.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie1Genre" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie1Origin" layoutX="314.0" layoutY="100.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie1Origin" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie1Director" layoutX="412.0" layoutY="100.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie1Director" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie1Star" layoutX="510.0" layoutY="100.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie1Star" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie2Title" layoutX="20.0" layoutY="160.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie2Title" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie3Title" layoutX="20.0" layoutY="220.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie3Title" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie4Title" layoutX="20.0" layoutY="280.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie4Title" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie5Title" layoutX="20.0" layoutY="340.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie5Title" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie2Year" layoutX="118.0" layoutY="160.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie2Year" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie2Genre" layoutX="216.0" layoutY="160.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie2Genre" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie2Origin" layoutX="314.0" layoutY="160.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie2Origin" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie2Director" layoutX="412.0" layoutY="160.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie2Director" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie2Star" layoutX="510.0" layoutY="160.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie2Star" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie3Year" layoutX="118.0" layoutY="220.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie3Year" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie3Genre" layoutX="216.0" layoutY="220.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie3Genre" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie3Origin" layoutX="314.0" layoutY="220.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie3Origin" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie3Director" layoutX="412.0" layoutY="220.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie3Director" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie3Star" layoutX="510.0" layoutY="220.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie3Star" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie4Year" layoutX="118.0" layoutY="280.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie4Year" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie5Year" layoutX="118.0" layoutY="340.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie5Year" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie4Genre" layoutX="216.0" layoutY="280.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie4Genre" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie5Genre" layoutX="216.0" layoutY="340.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie5Genre" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie4Origin" layoutX="314.0" layoutY="280.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie4Origin" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie5Origin" layoutX="314.0" layoutY="340.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie5Origin" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font name="System Bold" size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie4Director" layoutX="412.0" layoutY="280.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie4Director" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie5Director" layoutX="412.0" layoutY="340.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie5Director" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie4Star" layoutX="510.0" layoutY="280.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie4Star" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label fx:id="lblMovie5Star" layoutX="510.0" layoutY="340.0" prefHeight="50.0" prefWidth="72.0" style="-fx-background-color: #00FF00;" text="lblMovie5Star" textAlignment="CENTER" visible="false">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <Label layoutX="6.0" layoutY="5.0" text="IMBd 250 Movies" textFill="#1500fd">
+               <font>
+                  <Font name="JetBrains Mono SemiBold" size="12.0" />
+               </font></Label>
+            <Label fx:id="lblCheat" layoutX="154.0" layoutY="13.0" text="cheat" />
+            <Label fx:id="lblWarning" layoutX="154.0" layoutY="30.0" text="Label" textFill="#1500fd" visible="false">
+               <font>
+                  <Font name="JetBrains Mono NL SemiBold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblChance" layoutX="42.0" layoutY="60.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

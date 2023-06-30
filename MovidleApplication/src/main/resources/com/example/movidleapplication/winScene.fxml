@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="270.0" prefWidth="470.0" style="-fx-background-color: #87CEEB;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movidleapplication.WinSceneController">
+   <children>
+      <Button fx:id="btnRestart" layoutX="37.0" layoutY="115.0" mnemonicParsing="false" onAction="#btnRestartOnAction" prefHeight="44.0" prefWidth="155.0" style="-fx-background-color: #87CEEB; -fx-border-color: #e9c200; -fx-border-radius: 5px; -fx-border-width: 2px;" text="RESTART" textFill="#e9c200">
+         <font>
+            <Font name="Javanese Text" size="23.0" />
+         </font>
+      </Button>
+      <Label layoutX="170.0" layoutY="21.0" prefHeight="77.0" prefWidth="134.0" text="YOU WIN" textAlignment="CENTER" textFill="#e9c200">
+         <font>
+            <Font name="Javanese Text" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnExit" layoutX="259.0" layoutY="115.0" mnemonicParsing="false" onAction="#btnExitOnAction" prefHeight="44.0" prefWidth="155.0" style="-fx-background-color: #87CEEB; -fx-border-color: #e9c200; -fx-border-radius: 5px; -fx-border-width: 2px;" text="EXIT" textFill="#e9c200">
+         <font>
+            <Font name="Javanese Text" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
