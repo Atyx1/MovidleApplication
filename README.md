@@ -1,3 +1,6 @@
+
+my team mate, who I developed the app with(https://github.com/duyguozdugan) 
+
 Summary
 Film Guessing Game is a game where you test your film guesses from a list of five film names. Correct guesses are marked with a green label and films with similar characteristics are also shown in green, while each wrong guess costs you one point. At the end of the game you can view the results, play again or quit. This game offers a fun experience while testing your film knowledge
 
@@ -8,7 +11,6 @@ Film Guessing Game is an application that allows users to test their knowledge a
 The resources we used during the software development process include ChatGPT, YouTube tutorial videos, Scene Builder API, JavaFX API and documents. We actively used these resources as a quick solution to project requirements and problems we encountered.
 During the project process, we adopted the principles of teamwork and dynamic programming. We paid attention to implementing these principles at every stage, but we had minor problems in integrating Scenebuilder and JavaFx with java source codes at certain points and tried to solve them with a clean code approach.
 
-my team mate, who I developed the app with(https://github.com/duyguozdugan) 
 ![game](https://github.com/Atyx1/MovidleApplication/assets/79194664/34711b4d-63ef-4600-a7d1-1ee5a168b009)
 ![gameLose](https://github.com/Atyx1/MovidleApplication/assets/79194664/db29ac05-80e1-4d92-a3d1-0abd35390c4d)
 ![loseScene](https://github.com/Atyx1/MovidleApplication/assets/79194664/8df88ed5-fe00-4abd-ac6b-70bc094c7ec9)
