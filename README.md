@@ -9,3 +9,7 @@ The resources we used during the software development process include ChatGPT, Y
 During the project process, we adopted the principles of teamwork and dynamic programming. We paid attention to implementing these principles at every stage, but we had minor problems in integrating Scenebuilder and JavaFx with java source codes at certain points and tried to solve them with a clean code approach.
 
 my team mate, who I developed the app with(https://github.com/duyguozdugan) 
+![game](https://github.com/Atyx1/MovidleApplication/assets/79194664/34711b4d-63ef-4600-a7d1-1ee5a168b009)
+![gameLose](https://github.com/Atyx1/MovidleApplication/assets/79194664/db29ac05-80e1-4d92-a3d1-0abd35390c4d)
+![loseScene](https://github.com/Atyx1/MovidleApplication/assets/79194664/8df88ed5-fe00-4abd-ac6b-70bc094c7ec9)
+![newScene](https://github.com/Atyx1/MovidleApplication/assets/79194664/8e5dafe4-3b21-44a3-b5c4-138c9fe0dfc5)
